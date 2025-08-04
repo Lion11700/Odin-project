@@ -1,11 +1,16 @@
+:root {
+    --fondo: #1F2937;
+    --texto-blanco: #F9FAF8;
+}
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 h1 {
     font-size: 48px;
-    color: #F9FAF8;
+    color: var(--texto-blanco);
     padding-bottom: 10px;
     font-weight: 900;
 }
@@ -21,6 +26,12 @@ li a {
 }
 li a:hover {
     background-color: #707072;
+}
+footer {
+    text-align: center;
+    background-color: var(--fondo);
+    color: var(--texto-blanco);
+    padding: 20px;
 }
 .lugar-img {
     width: 300px;
@@ -57,6 +68,9 @@ li a:hover {
     margin: 30px 200px;
     color: #E5E7EB;
 }
+#acerca {
+    display:flex;
+}
 #logo {
     position: relative;
     left: 20px;
@@ -64,23 +78,33 @@ li a:hover {
     color: #F9FAF8;
 }
 #header {
-   font-family: 'Roboto', sans-serif;
-   background-color: #1F2937;
+   background-color: var(--fondo);
 }
-#contenido {
-    display:flex;
-    justify-content: space-between;
+#BS-AS {;
+    max-width: 300px;
+    height: auto;
 }
-#BS-AS {
-    max-width: 100%;
+.img {
+    max-width: 200px;
     height: auto;
 }
 #general {
-    text-align: center;
     margin-top: 80px;
+    background-color: #E5E7EB;
+    margin-bottom: 40px;;
 }
 #general h2 {
     margin-bottom: 30px;
+    text-align: center;
+}
+#info-general {
+    text-align: center;
+}
+#info-general p {
+    margin-bottom: 10px;
+}
+#info-general ul li {
+    margin: 10px;
 }
 #acerca p {
     max-width: 50%;
