@@ -8,6 +8,10 @@
     box-sizing: border-box;
     font-family: "Roboto";
 }
+body {
+    width: 100%;
+
+}
 h1 {
     font-size: 48px;
     color: var(--texto-blanco);
@@ -53,34 +57,28 @@ footer {
     padding-bottom: 5px;
 }
 #nav-section {
+    width: 100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
+    
 }
-#nav-list {
-    position: relative;
-    bottom: 20px;
+#nav-list{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     gap: 10px;
-    margin-right: 10px;
+    margin: 20px;
 }
 #acerca {
     margin: 30px 200px;
     color: #E5E7EB;
-}
-#acerca {
     display:flex;
-}
-#logo {
-    position: relative;
-    left: 20px;
-    top: 20px;
-    color: #F9FAF8;
 }
 #header {
    background-color: var(--fondo);
 }
-#BS-AS {;
+#BS-AS {
     max-width: 300px;
     height: auto;
 }
@@ -91,7 +89,8 @@ footer {
 #general {
     margin-top: 80px;
     background-color: #E5E7EB;
-    margin-bottom: 40px;;
+    margin-bottom: 40px;
+    padding: 10px;
 }
 #general h2 {
     margin-bottom: 30px;
