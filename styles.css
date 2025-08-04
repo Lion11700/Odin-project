@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    border-radius: 20px;
+    padding: 10px;
+}
+li a:hover {
+    background-color: #707072;
+}
+.lugar-img {
+    width: 300px;
+    height: auto;
+}
+.lugar {
+    max-width: 200px;
+}
+.lugar p {
+    width: 100%;
+}
+#lugar-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+#sobre-nosotros {
+    padding-bottom: 5px;
+}
+#nav-section {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-list {
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+    margin-right: 10px;
+}
+#acerca {
+    margin: 30px 200px;
+    color: #E5E7EB;
+}
+#logo {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    color: #F9FAF8;
+}
+#header {
+   font-family: 'Roboto', sans-serif;
+   background-color: #1F2937;
+}
+#contenido {
+    display:flex;
+    justify-content: space-between;
+}
+#BS-AS {
+    max-width: 100%;
+    height: auto;
+}
+#general {
+    text-align: center;
+    margin-top: 80px;
+}
+#general h2 {
+    margin-bottom: 30px;
+}
+#acerca p {
+    max-width: 50%;
+    margin-bottom: 90px;
+}
+#lugares h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #2F2937;
+    font-weight: 900;
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
