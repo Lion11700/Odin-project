@@ -10,7 +10,6 @@
 }
 body {
     width: 100%;
-
 }
 h1 {
     font-size: 48px;
@@ -47,6 +46,10 @@ footer {
 .lugar p {
     width: 100%;
 }
+.img {
+    max-width: 200px;
+    height: auto;
+}
 #lugar-container {
     display: flex;
     justify-content: space-evenly;
@@ -72,19 +75,17 @@ footer {
     margin: 20px;
 }
 #acerca {
-    margin: 30px 200px;
+    margin: 30px;
     color: #E5E7EB;
     display:flex;
+    justify-content: center;
+    align-items: center;
 }
 #header {
    background-color: var(--fondo);
 }
 #BS-AS {
     max-width: 300px;
-    height: auto;
-}
-.img {
-    max-width: 200px;
     height: auto;
 }
 #general {
